@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fireStore- Firebase</title>
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+</head>
+<h1>Real time database</h1>
+
+<body>
+  <input type="text" name="" id="inpName">
+  <!-- <input type="text" name="" id="OrderName">
+<input type="text" name="" id="">
+<input type="number" name="" id="">
+<input type="text" name="" id="">
+<input type="text" name="" id="">
+<input type="number" name="" id=""> -->
+  <button onclick="addData()">Add</button>
+
+  <br>
+  <button onclick="getData()"> Get Data</button>
+
+
+  <div>
+    <h1>Orders:</h1>
+    <div id="orderlist">
+
+    </div>
+  </div>
+</body>
+
+
+<script src="app.js"></script>
+
+</html>
